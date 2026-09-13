@@ -1,0 +1,33 @@
+# ---- Web API ----
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+
+# ---- Agent / Workflow ----
+langchain==0.3.7
+langchain-core==0.3.15
+langchain-community==0.3.5
+langgraph==0.2.39
+
+# ---- LLM Provider（免費額度：Google AI Studio Gemini）----
+langchain-google-genai==2.0.4
+
+# ---- RAG / 向量資料庫 ----
+langchain-chroma==0.1.4
+chromadb==0.5.15
+sentence-transformers==3.2.1   # 本地端 Cross-Encoder Reranker，免費、免 API
+
+# ---- 免費工具（Agent 可呼叫的 Tool）----
+duckduckgo-search==6.3.4       # 免費網路搜尋，不需要 API Key
+
+# ---- 文件解析 ----
+pypdf==5.0.1
+
+# ---- 設定與環境變數 ----
+pydantic==2.9.2
+pydantic-settings==2.5.2
+python-dotenv==1.0.1
+
+# ---- 測試 ----
+pytest==8.3.3
+httpx==0.27.2
